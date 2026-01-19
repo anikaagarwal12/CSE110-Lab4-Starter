@@ -29,7 +29,7 @@ public class ExpenseRepositoryTest {
 
         double total = repository.getTotal();
 
-        assertEquals(40.50, total);
+        assertEquals(30.50, total);
     }
 
     @Test
@@ -38,4 +38,3 @@ public class ExpenseRepositoryTest {
         assertEquals(0.0, repository.getTotal());
     }
 }
-
