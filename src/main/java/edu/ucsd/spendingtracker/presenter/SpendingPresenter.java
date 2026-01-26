@@ -22,8 +22,8 @@ public class SpendingPresenter extends AbstractPresenter<SpendingView> {
             updateView();
             });
         });
-        
 
+        // small change
         updateView();
     }
 
