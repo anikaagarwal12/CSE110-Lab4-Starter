@@ -21,4 +21,10 @@ public class Model {
     public double getTotalSpending() {
         return repository.getTotal();
     }
+
+    public void deleteExpense(int id) {
+    repository.deleteExpense(id);
+}
+
+
 }

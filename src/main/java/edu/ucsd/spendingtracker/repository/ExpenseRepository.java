@@ -1,13 +1,13 @@
 package edu.ucsd.spendingtracker.repository;
 
 import java.util.List;
-import edu.ucsd.spendingtracker.datasource.InMemoryDataSource;
+import edu.ucsd.spendingtracker.datasource.IDataSource;
 import edu.ucsd.spendingtracker.model.Expense;
 
 public class ExpenseRepository {
-    private final InMemoryDataSource dataSource;
+    private final IDataSource dataSource;
 
-    public ExpenseRepository(InMemoryDataSource dataSource) {
+    public ExpenseRepository(IDataSource dataSource) {
         this.dataSource = dataSource;
     }
 
@@ -26,5 +26,8 @@ public class ExpenseRepository {
         }
         return total;
     }
-}
 
+    public void deleteExpense(int id) {
+        dataSource.deleteExpense(id);
+    }
+}

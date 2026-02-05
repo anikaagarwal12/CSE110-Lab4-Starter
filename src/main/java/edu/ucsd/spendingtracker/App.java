@@ -1,6 +1,7 @@
 package edu.ucsd.spendingtracker;
 
-import edu.ucsd.spendingtracker.datasource.InMemoryDataSource;
+import edu.ucsd.spendingtracker.datasource.IDataSource;
+import edu.ucsd.spendingtracker.datasource.SqlDataSource;
 import edu.ucsd.spendingtracker.model.Model;
 import edu.ucsd.spendingtracker.presenter.PresenterManager;
 import edu.ucsd.spendingtracker.presenter.SpendingPresenter;
@@ -11,10 +12,12 @@ import edu.ucsd.spendingtracker.view.SummaryView;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
+
 public class App extends Application {
     @Override
     public void start(Stage primaryStage) {
-        InMemoryDataSource dataSource = InMemoryDataSource.getDefaultDataSource();
+        
+        IDataSource dataSource = new SqlDataSource();
         ExpenseRepository repository = new ExpenseRepository(dataSource);
 
         Model sharedModel = new Model(repository);

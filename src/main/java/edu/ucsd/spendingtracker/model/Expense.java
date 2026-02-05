@@ -1,17 +1,19 @@
+package edu.ucsd.spendingtracker.model;
+
 public class Expense {
     private int id;
     private String name;
-    private String category;
+    private Category category;
     private double amount;
 
-    public Expense(int id, String name, String category, double amount) {
+    public Expense(int id, String name, Category category, double amount) {
         this.id = id;
         this.name = name;
         this.category = category;
         this.amount = amount;
     }
 
-    public Expense(String name, String category, double amount) {
+    public Expense(String name, Category category, double amount) {
         this(-1, name, category, amount);
     }
 
@@ -19,13 +21,15 @@ public class Expense {
         return id;
     }
 
-    // keep your existing getters/setters if any
-}
+    public String getName() {
+        return name;
+    }
 
+    public Category getCategory() {
+        return category;
+    }
 
     public double getAmount() {
         return amount;
     }
 }
-
-
