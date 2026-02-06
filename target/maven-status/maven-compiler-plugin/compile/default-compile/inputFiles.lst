@@ -11,6 +11,9 @@ C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\
 C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\presenter\SpendingPresenter.java
 C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\presenter\SummaryPresenter.java
 C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\repository\ExpenseRepository.java
+C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\charts\BarChartProvider.java
+C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\charts\IChartProvider.java
+C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\charts\PieChartProvider.java
 C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\SpendingView.java
 C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\SummaryView.java
 C:\Users\05ani\UCSD\UCSDWINTER2026\CSE110\CSE110-Lab4-Starter\src\main\java\module-info.java
