@@ -11,6 +11,9 @@ C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker
 C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\presenter\SpendingPresenter.java
 C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\presenter\SummaryPresenter.java
 C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\repository\ExpenseRepository.java
+C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\charts\BarChartProvider.java
+C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\charts\IChartProvider.java
+C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\charts\PieChartProvider.java
 C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\SpendingView.java
 C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\edu\ucsd\spendingtracker\view\SummaryView.java
 C:\Users\Syrine Mekni\CSE110-Lab4-Starter\src\main\java\module-info.java
